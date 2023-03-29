@@ -128,3 +128,271 @@
     margin-left: 16px;
     margin-top: 6px;
 }
+
+.row5{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.row5-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.row5-left-desc{
+    margin-bottom: 30px;
+}
+
+.row5-left-desc h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.row5-left-desc p{
+    font-size: 15px;
+}
+
+.row5-left-item1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.row5-left-item1 span{
+    margin-right: 50px;
+}
+
+.row5-right{
+    display: flex;
+    width: 35%;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.row5-right-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+.row5-right-des{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row5-right-header{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    color: #00bdd6;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row5-right-container select{
+    height: 34px;
+    border: none;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+
+}
+
+.row5-right-des{
+    margin-top: 20px;
+}
+
+.row5-right-container input{
+    margin-top: 10px;
+    height: 50px;
+    background-color: #00bdd6;
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+}
+
+.row5-right-container button{
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    border: 1px #00bdd6 solid;
+    color: #00bdd6;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.row6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+.row6-header{
+    display: flex;
+    justify-content:  space-between;
+}
+
+.row6-header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row6-header-left span, .row6-header-left img{
+    margin-right: 5px;
+}
+
+.row6-header-right{
+    color: #565e6c;
+}
+
+
+.row6-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row6-item1{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-top: 30px;
+}
+
+.row6-item1-head{
+    display: flex;
+}
+
+.row6-item1-des{
+    margin-top: 10px;
+}
+
+.row7{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.row7-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.row7-item1{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 350px;
+    border-radius: 5px;
+    border: 0.1px solid rgba(0, 0, 0, 0.1) ;
+}
+.row7-item1-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row7-item1-des1{
+display: flex;
+justify-content: space-between;
+width: 90%;
+align-items: center;
+margin-top: 3px;
+}
+
+#footer{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-row2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.footer-row3{
+    position: relative;
+    width: 380px;
+    height: 40px;   
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.txtMail{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border: none ;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+
+}
+
+.btnSub{
+    position: absolute;
+    width: 30%;
+    height: 102%;
+    right: 0px;
+    border: none;
+    background-color: #00bdd6;
+    color: white;
+}
+
+.footer-row4{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.footer-row4-item1 h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-row4-item1 p{
+    margin: 10px 0 ;
+}
+
+.footer-row5{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.footer-row5 select{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    
+}
+
+.footer-row5-C{
+    font-size: 15px;
+    color: grey;
+}
+
+.footer-row5-R{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
